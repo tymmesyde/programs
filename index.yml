@@ -110,6 +110,15 @@ abletonlive:
   Icon: abletonlive.png
   Event: ableton*.exe
 
+abletonlivesuite12:
+  Arch: win64
+  Name: Ableton Live Suite 12
+  Description: Ableton Live is a digital audio workstation developed by the German company Ableton.
+  Grade: Gold
+  Category: Software
+  Icon: abletonlive.png
+  Event: ableton*.exe
+
 fusion:
  Arch: win64
  Name: Autodesk Fusion

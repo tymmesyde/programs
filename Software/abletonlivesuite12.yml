@@ -1,0 +1,25 @@
+Name: abletonlivesuite12
+Description: Ableton Live is a digital audio workstation developed by the German company Ableton.
+Grade: Gold
+Arch: win64
+
+Dependencies:
+- allfonts
+- d3dx11
+
+Executable:
+  name: Ableton Live Suite 12
+  icon: abletonlive.png
+  file: Ableton Live 12 Suite.exe
+  path: ProgramData\Ableton\Live 12 Suite\Program\Ableton Live 12 Suite.exe
+  arguments: ""
+
+Steps:
+- action: install_exe
+  file_name: Ableton Live 12 Suite Installer.exe
+  url: local
+  arguments: ""
+
+Checks:
+  files:
+    - ProgramData/Ableton/Live 12 Suite/Program/Ableton Live 12 Suite.exe
